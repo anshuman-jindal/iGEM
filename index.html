@@ -6,7 +6,7 @@
   <title>iGEM IIT M</title>
   <style>
    /*  CSS styles for the website 
-    body {
+    */ body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -20,38 +20,39 @@
     h1 {
       margin: 0;
     }
+    
     nav {
       background-color: #f8f9fa;
-      padding: 10px;
+      padding: 30px;
     }
+    
     nav ul {
-      list-style-type: none;
+      list-style: none;
       margin: 0;
       padding: 0;
+      position:absolute;
     }
-    nav ul li {
+
+     nav ul li {
       display: inline-block;
       margin-right: 10px;
-    }
+    }  
     nav ul li a {
       text-decoration: #0080ff;
       color: #0080ff;
       padding: 5px;
-      display: block;
+      display: inline-block; 
     }
-    nav ul li a:hover{
+     nav ul li a:hover{
       background-color : lightsalmon;
-    }
-    nav ul li:hover{
       display:block;
-    }
-    ul li ul li{
-      display: none;
-    }
-    ul li a{
-      text decoration : none;
-      color: white;
-      display: block;
+    } 
+    nav ul li ul li{
+        display: none;
+        background-color: #f8f9fa;
+    } 
+    nav ul li:hover ul li{
+        display: block;
     }
     section {
       padding: 20px;
@@ -61,7 +62,7 @@
       color: #fff;
       padding: 10px;
       text-align: center;
-    }*/
+    }
   </style> 
 </head>
 <body>
@@ -76,14 +77,14 @@
       <li><a href="#">Home</a></li>
       <li><a href="#">Team</a></li>
       <li><a href="#">
-        Past Projects
+        Past Projects</a>
         <ul>
           <li><a href="https://2019.igem.org/Team:IIT-Madras">2019</a></li>
           <li><a href="https://2018.igem.org/Team:IIT-Madras">2018</a></li>
           <li><a href="https://2017.igem.org/Team:IIT-Madras">2017</a></li>
           <li><a href="https://2016.igem.org/Team:IIT-Madras">2016</a></li>
         </ul>
-        </a>
+        </li>
       <li><a href="https://biotech.iitm.ac.in/contactus/" target="_blank">Contact Us</a></li>
       <li><a href="#"></a></li>
     </ul>
